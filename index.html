@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Interactive Web Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Interactive CSS + JavaScript</h1>
+    <button class="fancy-btn">Hover Me</button>
+  </header>
+
+  <main>
+    <!-- Part 1: CSS animations -->
+    <section>
+      <h2>Part 1: CSS Animations</h2>
+      <div class="pulse-box"></div>
+      <p class="fade-in">This text fades in smoothly</p>
+    </section>
+
+    <!-- Part 2: Functions -->
+    <section>
+      <h2>Part 2: JavaScript Functions</h2>
+      <button id="calcAreaBtn">Calculate Area</button>
+      <p id="areaResult"></p>
+    </section>
+
+    <!-- Part 3: Combine CSS + JS -->
+    <section>
+      <h2>Part 3: CSS + JS Together</h2>
+      <button id="animateBoxBtn">Animate Box</button>
+      <div id="animBox" class="box"></div>
+
+      <button id="openModalBtn">Open Modal</button>
+      <div id="modal" class="modal">
+        <div class="modal-content">
+          <p>This is a modal popup! 🎬</p>
+          <button id="closeModalBtn">Close</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
